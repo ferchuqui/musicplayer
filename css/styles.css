@@ -124,6 +124,9 @@ img{
 #repeat{
   margin-left: 10px;
 }
+.repeat-active{
+  color: blue;
+}
 
 @media screen and (max-width: 800px){
   #bars{
@@ -144,6 +147,7 @@ img{
   }
   .playlists{
     width: 200px;
+    z-index: 1;
     background: rgba(1,19,1,0.9);
   }
   .togglePlaylist{
